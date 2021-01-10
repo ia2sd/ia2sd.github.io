@@ -1,0 +1,128 @@
+.top-bar{
+    background: #2f435e;
+    height: 3.8rem;
+    padding: .5rem 0;
+}
+.navbar{
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.nav-item{
+    padding: .5rem;
+}
+.nav-link{
+    color: #5b5555;
+}
+.nav-link.active,
+.nav-link:hover{
+    color: #5981b3! important;
+}
+/* Carousel Content--*/
+.carousel-caption{
+    position: absolute;
+    top: 54%;
+}
+.bg-custom{
+    background-color: rgba(0,0,0, .4);
+    color: white;
+}
+
+
+#news{
+    text-align: center;
+    
+}
+
+/*flexbox*/
+
+
+aside {
+    flex-basis: 30%;
+    padding: 5px;
+    margin: 0px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #5981b3;
+}
+
+
+#mainaside {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+#socialicon{
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+
+/*Responsive Flexbox-Layouts*/
+
+@media screen and (max-width: 768px) {
+    #mainasidesemliste,
+    #mainaside {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* FAQ*/
+.text-secondary {
+    color: #3d5d6f;
+  }
+  
+  .h4,
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    color: #333;
+  }
+  
+  .fa,
+  .fas {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .h-100 {
+    height: 100%;
+  }
+  
+  a.text-secondary:focus,
+  a.text-secondary:hover {
+    text-decoration: none;
+    color: #22343e;
+  }
+  
+  #accordion .fa-plus {
+    transition: -webkit-transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  }
+  
+  #accordion a[aria-expanded=true] .fa-plus {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+/* Ende FAQ*/
+
+
+
+/*breadcrumb*/
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
