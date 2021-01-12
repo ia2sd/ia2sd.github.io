@@ -54,7 +54,7 @@
         
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-          <a class="navbar-brand" href="Home.html"><img src="./Bilder/IA2SD.png" class="img-fluid" alt="Logo dieser Webseite" width="150" height="125"></a>
+          <a class="navbar-brand" href="index.html"><img src="./Bilder/IA2SD.png" class="img-fluid" alt="Logo dieser Webseite" width="150" height="125"></a>
       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>  
@@ -63,7 +63,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-              <a class="nav-link" href="Home.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
           </li>
               
               <li class="nav-item active dropdown">
@@ -75,7 +75,6 @@
         <a class="dropdown-item" href="Voraussetzung.html">Voraussetzungen zum Studium in Deutschland </a>
         <a class="dropdown-item" href="Hochschulsystem.html">Hochschulsystem in Deutschland</a>
         <a class="dropdown-item" href="Studiengang.html">Studiengang- /Hochschulauswahl</a>
-        <a class="dropdown-item" href="Aufenthalt.html">Aufenthalt organisieren</a>
         <a class="dropdown-item" href="Finanzierung.html">Finanzierungsmöglichkeiten und Statusunterschiede </a>
         <a class="dropdown-item" href="Studienverlauf.html">Studienverlauf</a>
         <a class="dropdown-item" href="Studienleistungen.html">Studienleistungen extern</a>
@@ -105,7 +104,7 @@
          <!--breadcrumb-->
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="Home.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">Themen</li>
     <li class="breadcrumb-item active" aria-current="page">Kulturelle Begleiterung/ Integration</li>
   </ol>
@@ -117,7 +116,6 @@
         <div class="col-12 col-md-9">
           <div class="jumbotron">
             <h1>Kulturelle Begleiterung/ Integration</h1>
-            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
           </div>
             
             
@@ -128,10 +126,14 @@
                  
             <div class="card">
   <h4>Uni Angebote</h4>
-                <p>Wie finde ich eine Studentenwohnung in Deutschland?
-Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. In Deutschland wohnen die Studierenden entweder in einem Studentenwohnheim oder in einer privaten Unterkunft.</p>
+                <p>Hochschulen/ Universitäten bieten vielfältige Freizeit- und Betreuungsangebote für die Studierenden. Erstsemester Einführungsveranstaltungen, Campus Partys, Sommerfeste,  </p>
   <div class="card-body">
-    <a href="#" class="btn btn-primary">&raquo; Mehr</a>
+    <div id="integration" class="collapse">
+     Sportangebote, Fachschaft Treffen und studentische, Hochschulsportgruppen, Mitwirkungsangebote an Hochschulorganen wie ASTA und Fachschaft bieten vielseitige Möglichkeiten für die Integration ausländischer Studierender.
+          <br>
+        
+  </div>
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#integration">Mehr</button>
   </div>
 </div>
             </div>
@@ -139,11 +141,10 @@ Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. I
                  
             <div class="card">
   <h4>Regionale und lokale Angebote </h4>
-                <p>Wie finde ich eine Studentenwohnung in Deutschland?
-Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. In Deutschland wohnen die Studierenden entweder in einem Studentenwohnheim oder in einer privaten Unterkunft.</p>
-  <div class="card-body">
-    <a href="#" class="btn btn-primary">&raquo; Mehr</a>
-  </div>
+                <p>Regionale und lokale Angebote am Studienort und an der Hochschule
+Wohngemeinschaften in den Studentenheimen, kulturelle Angebote der Studienorte 
+</p>
+ 
 </div>
             </div>
             
@@ -151,11 +152,7 @@ Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. I
                  
             <div class="card">
   <h4>Gemeinsame Kulturvereine Ausländer und Deutsche </h4>
-                <p>Wie finde ich eine Studentenwohnung in Deutschland?
-Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. In Deutschland wohnen die Studierenden entweder in einem Studentenwohnheim oder in einer privaten Unterkunft.</p>
-  <div class="card-body">
-    <a href="#" class="btn btn-primary">&raquo; Mehr</a>
-  </div>
+                <p>Integrative und soziale Gruppen und Vereine unter den großen örtlichen Sozialträgern wie Caritas, Deutscher Paritätischer Wohlfahrtsverband,  Deutsches Rotes Kreuz…</p>
 </div>
             </div>
          </div>
@@ -165,46 +162,52 @@ Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. I
      <div class="container-fluid">
         <div class="row my-5">
             
-            <div class="col-md-4 my-4">               <div class="card">
-  <h4>Kirchliche Einrichtungen</h4>
-                <p>Wie finde ich eine Studentenwohnung in Deutschland?
-Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. In Deutschland wohnen die Studierenden entweder in einem Studentenwohnheim oder in einer privaten Unterkunft.</p>
-  <div class="card-body">
-    <a href="#" class="btn btn-primary">&raquo; Mehr</a>
+            <div class="col-md-4 my-4">             
+            <div class="card">
+  <h4>Deutsche kulturelle und traditionelle Feste und Veranstaltungen</h4>
+                <p>Viele typisch deutsche kulturelle und traditionelle Feste, von international bekannten Großveranstaltungen wie dem Münchener Oktoberfest, die Hamburger Hafenparade, </p>
+         
+                <div class="card-body">
+                <div id="integration2" class="collapse">
+    die Karnevalsumzüge in Köln, Düsseldorf und Mainz, die Cranger Kirmes sind neben vielen lokalen Festen und Veranstaltungen wie Stadtfeste, Schützenfeste gute Gelegenheiten deutsche Kultur kennen zu lernen.
+          <br>
+        
   </div>
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#integration2">Mehr</button>
+                </div>
+                </div>
 </div>
-            </div>
             
             <div class="col-md-4 my-4">             
             <div class="card">
   <h4>Ehrenamtliche Tätigkeiten </h4>
-                <p>Wie finde ich eine Studentenwohnung in Deutschland?
-Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. In Deutschland wohnen die Studierenden entweder in einem Studentenwohnheim oder in einer privaten Unterkunft.</p>
-  <div class="card-body">
-    <a href="#" class="btn btn-primary">&raquo; Mehr</a>
-  </div>
-</div>
+                <p>In der Jugendbetreuung, als Übungsleiter in Sportvereinen, in studentischen Hilfsorganisationen, in der Flüchtlingshilfe, in politischen Parteien, in der Jugendhilfe…usw.</p>
             </div>
+            </div>          
             <div class="col-md-4 my-4">             
             <div class="card">
   <h4>Vereine für Sport und Freizeit</h4>
-                <p>Wie finde ich eine Studentenwohnung in Deutschland?
-Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. In Deutschland wohnen die Studierenden entweder in einem Studentenwohnheim oder in einer privaten Unterkunft.</p>
+                <p>Vereine für Sport und Freizeit bieten in Deutschland traditionell die weitreichendsten Möglichkeiten für ausländische Studierende sich tief in die deutsche Gesellschaft zu integrieren. 
+                    </p>
   <div class="card-body">
-    <a href="#" class="btn btn-primary">&raquo; Mehr</a>
+    <div id="integration1" class="collapse">
+     In Deutschland werden fast alle Sportarten traditionell in örtlich lokalen gemeinnützigen Sportvereinen ausgeübt. Es gibt an fast allen Standorten  Sportvereine um „seine“ Sportart ausüben zu können. Freizeitvereine wie Gesangvereine, Umweltschutzvereine, Tierschutzvereine und viele mehr werden.
+          <br>
+        
   </div>
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#integration1">Mehr</button>
+      </div>
+  </div>
+
+            </div>
+                
+             <div class="col-md-4 my-4">               <div class="card">
+  <h4>Kirchliche Einrichtungen</h4>
+                <p>Katholische und evangelische Pfarrgemeinden und Islamische Gemeinden und deren Einrichtungen</p>
+ 
 </div>
             </div>
-            <div class="col-md-4 my-4">             
-            <div class="card">
-  <h4>Deutsche kulturelle und traditionelle Feste und Veranstaltungen</h4>
-                <p>Wie finde ich eine Studentenwohnung in Deutschland?
-Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. In Deutschland wohnen die Studierenden entweder in einem Studentenwohnheim oder in einer privaten Unterkunft.</p>
-  <div class="card-body">
-    <a href="#" class="btn btn-primary">&raquo; Mehr</a>
-  </div>
-</div>
-            </div>
+            
             
          </div>
             </div>
@@ -219,8 +222,6 @@ Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. I
             <a href="Voraussetzung.html" class="list-group-item">Voraussetzungen zum Studium in Deutschland</a>
             <a href="Hochschulsystem.html" class="list-group-item">Hochschulsystem in Deutschland</a>
             <a href="Studiengang.html" class="list-group-item">Studiengang- / Hochschulauswahl</a>
-            <a href="Aufenthalt.html" class="list-group-item">Aufenthalt organisieren</a>
-              <a href="Visum.html" class="list-group-item">Visum</a>
               <a href="Finanzierung.html" class="list-group-item">Finanzierungsmöglichkeiten und Statusunterschiede</a>
             <a href="Studienverlauf.html" class="list-group-item">Studienverlauf</a>
             <a href="Studienleistungen.html" class="list-group-item">Studienleistungen extern</a>
@@ -267,9 +268,6 @@ Hier sind einige Tipps, wie Sie eine Unterkunft in Deutschland finden können. I
           </li>
           <li>
             <a href="Studiengang.html">Studiengang- /Hochschulauswahl</a>
-          </li>
-            <li>
-            <a href="Aufenthalt.html">Aufenthalt organisieren</a>
           </li>
             <li>
         <a href="Finanzierung.html">Finanzierungsmöglichkeiten und Statusunterschiede </a>

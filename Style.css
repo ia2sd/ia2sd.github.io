@@ -107,6 +107,9 @@ aside {
     text-decoration: none;
     color: #22343e;
   }
+.jumbotron{
+    margin-top:20px;
+}
   
   #accordion .fa-plus {
     transition: -webkit-transform 0.25s ease-in-out;
